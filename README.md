@@ -1,2 +1,2 @@
 # Practice-Programs
-This repository contains logical programs that have been practiced and executed.
+This repository contains logical programs that are written in java language.
