@@ -1,4 +1,8 @@
-public class mergeTwoSortedArray
+package arrays;
+
+import java.util.Arrays;
+
+public class MergeTwoSortedArray
 {
     public static void merge(int[] arr1,int[] arr2){
         int arr1_len = arr1.length;
