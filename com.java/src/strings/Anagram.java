@@ -28,5 +28,6 @@ public class Anagram {
 		Anagram anagram = new Anagram();
 		boolean isAna = anagram.isAnagram(s1, s2);
 		System.out.println(isAna);
+		
 	}
 }
