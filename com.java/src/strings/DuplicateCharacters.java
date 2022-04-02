@@ -1,5 +1,10 @@
 package strings;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
 public class DuplicateCharacters {
 	public static void bruteforce(String str){
 		int count;

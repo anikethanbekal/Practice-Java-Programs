@@ -8,8 +8,7 @@ public class CopyArray {
 	public void copyByLoop(int[] arr) {
 		int outArr[] = new int[arr.length];
 		for (int i = 0; i < arr.length; i++) {
-			outArr[i] = arr[i];
-			
+			outArr[i] = arr[i];	
 		}
 
 		for (int a : outArr) {
@@ -21,6 +20,8 @@ public class CopyArray {
 	public void copy(int[] arr) {
 		
 		int[] outArr = Arrays.copyOf(arr, arr.length);
+
+		//To print the array
 		for (int a : outArr) {
 			System.out.println(a);
 		}

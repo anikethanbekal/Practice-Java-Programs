@@ -21,5 +21,20 @@ public class CompareArray {
 		if (Arrays.equals(inarr1, inarr2))
 			; // true
 
+		// m2
+		int a[] = { 1, 2, 3 };
+		int b[] = { 1, 2, 3 };
+		boolean isStatus = true;
+		if (a.length == b.length) {
+			for (int i = 0; i < a.length; i++) {
+				if (a[i] != b[i]) {
+					isStatus = false;
+				}
+			}
+		}
+		if (isStatus) {
+			System.out.println("Its equal");
+		}
+		
 	}
 }
